@@ -1,0 +1,16 @@
+{
+  "backup_data_uid": "e445d0925ddf81c1", 
+  "backup_module_uid": "1dc07ee0f4742028", 
+  "backup_module_uoa": "package", 
+  "control": {
+    "engine": "CK", 
+    "iso_datetime": "2019-02-19T17:31:19.504383", 
+    "version": [
+      "1", 
+      "9", 
+      "7", 
+      "1"
+    ]
+  }, 
+  "data_name": "SysML'19 P3 (Zenodo)"
+}

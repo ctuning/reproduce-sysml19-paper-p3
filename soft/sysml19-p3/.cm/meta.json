@@ -1,0 +1,23 @@
+{
+  "auto_detect": "no", 
+  "customize": {
+    "check_that_exists": "yes", 
+    "ck_version": 10, 
+    "env_prefix": "CK_ENV_TOOL_SYSML19_P3", 
+    "only_for_host_os_tags": [
+      "linux"
+    ], 
+    "soft_file": {
+      "linux": "runner.py"
+    }, 
+    "soft_path_example": {
+      "linux": "run_exp.sh"
+    }
+  }, 
+  "soft_name": "SysML'19 P3", 
+  "tags": [
+    "tool", 
+    "sysml19", 
+    "p3"
+  ]
+}

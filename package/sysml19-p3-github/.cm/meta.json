@@ -1,0 +1,45 @@
+{
+  "customize": {
+    "extra_dir": "", 
+    "git_src_dir": "p3", 
+    "install_env": {
+      "PACKAGE_URL": "https://github.com/anandj91/p3", 
+      "PACKAGE_WORK_DIR": "p3"
+    }, 
+    "use_git_revision": "yes", 
+    "version": "master"
+  }, 
+  "deps": {
+    "python": {
+      "add_to_path": "yes", 
+      "local": "yes", 
+      "name": "Python", 
+      "sort": 10, 
+      "tags": "compiler,python", 
+      "version_from": [
+        3, 
+        5, 
+        0
+      ]
+    }
+  }, 
+  "end_full_path": {
+    "linux": "p3/run_exp.sh"
+  }, 
+  "only_for_host_os_tags": [
+    "linux"
+  ], 
+  "only_for_target_os_tags": [
+    "linux"
+  ], 
+  "package_extra_name": " (GitHub)", 
+  "process_script": "install", 
+  "soft_uoa": "e8ad4fd0a0ebc4f7", 
+  "suggested_path": "tool-sysml19-p3-github", 
+  "tags": [
+    "tool", 
+    "sysml19", 
+    "p3",
+    "vmaster"
+  ]
+}

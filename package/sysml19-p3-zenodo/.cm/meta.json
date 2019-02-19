@@ -1,0 +1,46 @@
+{
+  "customize": {
+    "extra_dir": "", 
+    "git_src_dir": "src", 
+    "install_env": {
+      "PACKAGE_NAME": "p3-v1.3.zip", 
+      "PACKAGE_URL": "https://zenodo.org/record/2549852/files/anandj91", 
+      "PACKAGE_WORK_DIR": "anandj91-p3-c647954"
+    }, 
+    "version": "sysml19"
+  }, 
+  "deps": {
+    "python": {
+      "add_to_path": "yes", 
+      "local": "yes", 
+      "name": "Python", 
+      "sort": 10, 
+      "tags": "compiler,python", 
+      "version_from": [
+        3, 
+        5, 
+        0
+      ]
+    }
+  }, 
+  "end_full_path": {
+    "linux": "anandj91-p3-c647954/run_exp.sh"
+  }, 
+  "only_for_host_os_tags": [
+    "linux"
+  ], 
+  "only_for_target_os_tags": [
+    "linux"
+  ], 
+  "package_extra_name": " (zenodo snapshot for SysML'19 paper)", 
+  "process_script": "install", 
+  "soft_uoa": "e8ad4fd0a0ebc4f7", 
+  "sort": -100, 
+  "suggested_path": "tool-sysml19-p3-zenodo", 
+  "tags": [
+    "tool", 
+    "sysml19", 
+    "p3",
+    "vzenodo"
+  ]
+}
