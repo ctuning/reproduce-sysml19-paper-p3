@@ -104,6 +104,7 @@ Just create a "hosts.json" with a list of IPs (make sure that you can ssh there 
 
 ```
 ["chifflet-2", "chifflet-4"]
+```
 
 Now you must register this configuration in the CK with some name such as "grid5000" as follows:
 ```
