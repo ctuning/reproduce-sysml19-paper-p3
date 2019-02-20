@@ -149,7 +149,7 @@
     }
   }, 
   "run_vars": {
-    "BATCH_SIZE": 1
+    "BATCH_SIZE": 32
   }, 
   "tags": [
     "program", 
