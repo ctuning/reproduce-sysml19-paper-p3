@@ -80,6 +80,6 @@ def setup(i):
     p2l=os.path.join(p2,'lib')
 
     # Need to update for Win/Darwin
-    s+='set PYTHONPATH='+p2l+':$PYTHONPATH\n'
+    s+='export PYTHONPATH='+p2l+':$PYTHONPATH\n'
 
     return {'return':0, 'bat':s}
