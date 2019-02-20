@@ -84,10 +84,6 @@
     "sockeye": {
       "ignore_return_code": "no", 
       "run_time": {
-        "post_process_cmds": [
-          "python ../postprocess.py"
-        ], 
-        "post_process_via_ck": "yes", 
         "pre_process_via_ck": {
           "script_name": "preprocess"
         }, 
