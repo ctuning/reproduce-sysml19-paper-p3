@@ -135,9 +135,12 @@ $ ck run program:sysml19-p3 --target=grid5000 \
 
 You can also run IWSLT15 experiments as follows:
 ```
-$ ck run program:sysml19-p3 --target=grid5000 --cmd_key=sockeye
+$ ck run program:sysml19-p3 --target=grid5000 --cmd_key=sockeye --env.OUTPUT_FILE=/tmp/sockeye_1.5-iwslt15_en-vi.sh
 
 ```
+
+Validated results on [GRID5000](https://www.grid5000.fr): [link](https://github.com/ctuning/reproduce-sysml19-paper-p3/issues/1).
+
 
 ## Suggestions
 
@@ -147,15 +150,5 @@ We expect the community to continue validating results from this and other SysML
 
 # Reproducibility badges
 
-We awarded the following badges based on above evaluation:
+TBD
 
-## ACM badges
-* ACM artifacts available 
-* ACM artifacts evaluated - reusable 
-
-[![](https://www.acm.org/binaries/content/gallery/acm/publications/replication-badges/artifacts_available_dl.jpg)](https://www.acm.org/publications/policies/artifact-review-badging)
-[![](https://www.acm.org/binaries/content/gallery/acm/publications/replication-badges/artifacts_evaluated_reusable_dl.jpg)](https://www.acm.org/publications/policies/artifact-review-badging)
-
-## cTuning foundation badges
-[![automation](https://github.com/ctuning/ck-guide-images/blob/master/ck-artifact-automated-and-reusable.svg)](http://cTuning.org/ae)
-[![workflow](https://github.com/ctuning/ck-guide-images/blob/master/ck-workflow.svg)](http://cKnowledge.org)
