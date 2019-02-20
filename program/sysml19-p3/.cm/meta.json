@@ -1,0 +1,63 @@
+{
+  "backup_data_uid": "7e8be4502317495b", 
+  "data_name": "sysml19-p3", 
+  "main_language": "python", 
+  "no_compile": "yes", 
+  "no_target_file": "yes", 
+  "process_in_tmp": "yes", 
+  "program": "yes", 
+  "run_cmds": {
+    "resnet": {
+      "ignore_return_code": "no", 
+      "print_files_after_run": [
+        "stderr.log", 
+        "stdout.log"
+      ], 
+      "run_time": {
+        "post_process_cmds": [
+          "python ../postprocess.py"
+        ], 
+        "post_process_via_ck": "yes", 
+        "pre_process_via_ck": {
+          "script_name": "preprocess"
+        }, 
+        "run_cmd_main": "..$#dir_sep#$ck_run$#script_ext#$", 
+        "run_cmd_out1": "stdout.log", 
+        "run_cmd_out2": "stderr.log", 
+        "run_output_files": [
+          "stdout.log", 
+          "stderr.log"
+        ], 
+        "run_set_env2": {
+          "MODEL":"resnet"
+        }
+      }, 
+      "sort": 100
+    } 
+  }, 
+  "run_deps": {
+    "imagenet-train-p3": {
+      "local": "yes", 
+      "name": "ImageNet dataset (train, P3)", 
+      "skip_from_bat": "yes", 
+      "sort": 20, 
+      "tags": "dataset,imagenet,raw,train-p3"
+    }, 
+    "tool-p3": {
+      "local": "yes", 
+      "name": "SysML'19 P3 library", 
+      "skip_from_bat": "yes", 
+      "sort": 10, 
+      "tags": "tool,p3"
+    }
+  }, 
+  "run_vars": {
+    "BATCH_SIZE": 1,
+    "NUM_LAYERS": 50
+  }, 
+  "tags": [
+    "program", 
+    "sysml19", 
+    "p3"
+  ]
+}
