@@ -79,6 +79,11 @@ $ ck install package:imagenet-2012-train
 $ ck install package:dataset-imagenet-2012-train-p3
 ```
 
+Note that if you already have ImageNet1K downloaded and extracted somewhere, you can ask CK to detect it rather then downloading it again:
+```
+$ ck detect soft:dataset.imagenet.train --search_dirs={path to downloaded and extracted ImageNet1K}
+```
+
 # Evaluation
 
 We created CK program workflow (pipeline) with [meta information](https://github.com/ctuning/reproduce-sysml19-paper-p3/blob/master/program/sysml19-p3/.cm/meta.json) 
