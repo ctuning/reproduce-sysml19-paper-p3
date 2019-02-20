@@ -10,6 +10,63 @@
     "version": "sysml19"
   }, 
   "deps": {
+    "compiler": {
+      "local": "yes", 
+      "name": "C++ compiler", 
+      "sort": 15, 
+      "tags": "compiler,lang-cpp", 
+      "update_tags_by_target_platform2": {
+        "android": "gcc", 
+        "linux": "gcc", 
+        "win": "mcl"
+      }
+    }, 
+    "compiler-cuda": {
+      "local": "yes", 
+      "name": "CUDA compiler", 
+      "sort": 16, 
+      "tags": "compiler,lang-c-cuda", 
+      "version_from": [
+        9, 
+        0, 
+        0
+      ]
+    }, 
+    "lib-cudnn": {
+      "local": "yes", 
+      "name": "CUDA DNN library", 
+      "sort": 17, 
+      "tags": "lib,cudnn", 
+      "version_from": [
+        7, 
+        0, 
+        0
+      ]
+    }, 
+    "lib-openblas": {
+      "local": "yes", 
+      "name": "OpenBLAS library", 
+      "skip_default": "yes", 
+      "sort": 30, 
+      "tags": "lib,blas,openblas"
+    }, 
+    "lib-opencv": {
+      "local": "yes", 
+      "name": "OpenCV library", 
+      "skip_default": "yes", 
+      "sort": 20, 
+      "tags": "lib,opencv-shared",
+      "version_from": [
+        3, 
+        0, 
+        0
+      ],
+      "version_to": [
+        3, 
+        99, 
+        99
+      ]
+    }, 
     "python": {
       "add_to_path": "yes", 
       "local": "yes", 
@@ -18,7 +75,7 @@
       "tags": "compiler,python", 
       "version_from": [
         3, 
-        5, 
+        1, 
         0
       ]
     }

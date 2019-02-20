@@ -58,12 +58,28 @@ def setup(i):
     cus=i['customize']
     env=i['env']
 
-    fp=cus.get('full_path','')
+    host_d=i.get('host_os_dict',{})
 
-    ep=cus.get('env_prefix','')
-    if ep!='' and fp!='':
-       p1=os.path.dirname(fp)
+    fp=cus['full_path']
+    ep=cus['env_prefix']
+ 
+    p1=os.path.dirname(fp)
+    env[ep]=p1
 
-       env[ep]=p1
+    p1l=os.path.join(p1, 'lib64')
+    cus['path_lib']=p1l
+
+    r = ck.access({'action': 'lib_path_export_script', 
+                   'module_uoa': 'os', 
+                   'host_os_dict': host_d, 
+                   'lib_path': p1l})
+    if r['return']>0: return r
+    s += r['script']
+
+    p2=os.path.dirname(p1)
+    p2l=os.path.join(p2,'lib')
+
+    # Need to update for Win/Darwin
+    s+='set PYTHONPATH='+p2l+':$PYTHONPATH\n'
 
     return {'return':0, 'bat':s}
