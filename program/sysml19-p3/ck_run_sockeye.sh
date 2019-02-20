@@ -15,7 +15,7 @@ ${CK_ENV_COMPILER_PYTHON_FILE} ../../../tools/launch.py \
  --validation-target ../dataset/iwslt15_en-vi/tst2012.vi \
  --source-vocab ../dataset/iwslt15_en-vi/vocab.en \
  --target-vocab ../dataset/iwslt15_en-vi/vocab.vi \
- --output ../models/sockeye_1.5-iwslt15_en-vi.sh \
+ --output ${OUTPUT_FILE} \
  --overwrite-output \
  --encoder rnn \
  --decoder rnn \

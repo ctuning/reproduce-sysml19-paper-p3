@@ -149,7 +149,8 @@
     }
   }, 
   "run_vars": {
-    "BATCH_SIZE": 32
+    "BATCH_SIZE": 32,
+    "OUTPUT_FILE":"../models/sockeye_1.5-iwslt15_en-vi.sh"
   }, 
   "tags": [
     "program", 
