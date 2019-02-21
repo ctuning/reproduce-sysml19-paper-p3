@@ -38,6 +38,14 @@ fi
 # Preparing MxNet
 cd ${PACKAGE_WORK_DIR}
 
+# Add sockeye to be able to compare results
+cp -f ${PACKAGE_DIR}/example-sockeye.tar.gz .
+gzip -d example-sockeye.tar
+tar xvf example-sockeye.tar
+rm -f example-sockeye.tar
+
+# Make
+
 EXTRA_MAKE_FLAGS=""
 
 export PKG_CONFIG_PATH=${CK_ENV_LIB_OPENCV_LIB}/pkgconfig:$PKG_CONFIG_PATH
