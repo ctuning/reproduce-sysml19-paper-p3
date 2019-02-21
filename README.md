@@ -148,7 +148,7 @@ Validated results on [GRID5000](https://www.grid5000.fr): [link](https://github.
 
 * Improve [CK post-processing plugin](https://github.com/ctuning/reproduce-sysml19-paper-p3/blob/master/program/sysml19-p3/postprocess.py) for P3 to automatically validate correctness or results
 
-We expect the community to continue validating results from this and other SysML'19 papers.
+We expect the community to continue validating results from this and other SysML'19 papers (see our [notes](https://arxiv.org/abs/1406.4020) and [example](http://adapt-workshop.org/motivation2016.htmlhttp://adapt-workshop.org/motivation2016.htmlhttp://adapt-workshop.org/motivation2016.html)).
 
 # Reproducibility badges
 
