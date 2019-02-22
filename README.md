@@ -13,7 +13,6 @@ and report your feedback [here](https://github.com/ctuning/reproduce-sysml19-pap
 * **Artifact (dev):** [GitHub](https://github.com/anandj91/p3)
 * **Evaluation methodology:** [SysML](http://cTuning.org/ae/sysml2019.html), [ACM badging](https://www.acm.org/publications/policies/artifact-review-badging), [ACM REQUEST](http://cKnowledge.org/request)
 * **Automated workflow:** [CK](https://github.com/ctuning/ck)
-* **Evaluators:** [Grigori Fursin](http://fursin.net/research.html)
 
 # Artifact check-list (meta-information)
 
@@ -152,5 +151,15 @@ We expect the community to continue validating results from this and other SysML
 
 # Reproducibility badges
 
-TBD
+We awarded the following badges based on above evaluation:
 
+## ACM badges
+* ACM artifacts available 
+* ACM artifacts evaluated - reusable 
+
+[![](https://www.acm.org/binaries/content/gallery/acm/publications/replication-badges/artifacts_available_dl.jpg)](https://www.acm.org/publications/policies/artifact-review-badging)
+[![](https://www.acm.org/binaries/content/gallery/acm/publications/replication-badges/artifacts_evaluated_reusable_dl.jpg)](https://www.acm.org/publications/policies/artifact-review-badging)
+
+## cTuning foundation badges
+[![automation](https://github.com/ctuning/ck-guide-images/blob/master/ck-artifact-automated-and-reusable.svg)](http://cTuning.org/ae)
+[![workflow](https://github.com/ctuning/ck-guide-images/blob/master/ck-workflow.svg)](http://cKnowledge.org)
