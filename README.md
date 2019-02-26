@@ -13,6 +13,7 @@ and report your feedback [here](https://github.com/ctuning/reproduce-sysml19-pap
 * **Artifact (dev):** [GitHub](https://github.com/anandj91/p3)
 * **Evaluation methodology:** [SysML](http://cTuning.org/ae/sysml2019.html), [ACM badging](https://www.acm.org/publications/policies/artifact-review-badging), [ACM REQUEST](http://cKnowledge.org/request)
 * **Automated workflow:** [CK](https://github.com/ctuning/ck)
+* **Open evaluation:** [Sergiy Matusevych](https://www.linkedin.com/in/motus) and [Grigori Fursin](http://fursin.net/research.html)
 
 # Artifact check-list (meta-information)
 
